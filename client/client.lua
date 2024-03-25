@@ -60,7 +60,7 @@ RegisterNetEvent('rup-fishing:client:beginFishing', function(waterType)
                     TriggerEvent("rup-fishing:client:ChatNotification","CHAR_RON", "Fishing", "", "The fish is on the hook go!!!")
                     Wait(1000)
                     local fishData = lib.callback.await('rup-fishing:server:getFishData', 100, waterType)
-                    print("Fish Data:", json.encode(fishData))
+                    --print("Fish Data:", json.encode(fishData))
                     if lib.skillCheck(fishData.difficulty) then
                         ClearPedTasks(cache.ped)
                         TriggerServerEvent('rup-fishing:server:tryFish', fishData)
@@ -94,7 +94,7 @@ function isFishingZone(self)
     local waterType = self.water
     if not hasAlertShown then
         alert("Press ~INPUT_CONTEXT~ to start fishing.")
-        print("Entered fishing zone of type:", self.water)
+        --print("Entered fishing zone of type:", self.water)
         hasAlertShown = true
     end
     
@@ -120,6 +120,6 @@ for i, zoneData in ipairs(Config.FishingZones) do
         inside = isFishingZone,
         onExit = isFishingExit,
     })
-    print(zoneData.type)
+    --print(zoneData.type)
     table.insert(fishingZones, poly)
 end
