@@ -8,6 +8,10 @@
 - Payouts all configurable.
 - Compatible with QBCore, ESX, NDCore, QBOX
 ## Installation
-Refer to [Documentation](https://app.gitbook.com/o/jmVGfUOcY0JQexIeALBn/s/h1q0rFb8NYPwf0Rl2Bu3/rup-fishing/installation)
+- Check Config.lua and change Config.Framework to your liking.
+- If using ND-Core or ESX please go into fxmanifest.lua and change what is listed.
+- Configure what you want in Config.lua and you're all good to go
+## Dependencies
+[ox_lib](https://github.com/overextended/ox_lib)
 ## Credits
 I took some of https://github.com/wasabirobby/wasabi_fishing logic to make this script so I would definitely recommend checking them out.
