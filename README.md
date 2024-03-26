@@ -1,6 +1,7 @@
 # Rup-Fishing
  Fishing script to mimic the style of GTA online
 
+If theres a bug or error, open ticket
 :fishing_pole_and_fish:[DISCORD](https://discord.gg/ESeUp8fwXQ):fishing_pole_and_fish:
 
  Images Below
