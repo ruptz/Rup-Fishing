@@ -1,7 +1,7 @@
 local seconds, minutes = 1000, 60000
 Config = {}
 
-Config.Debug = true
+Config.Debug = false
 
 Config.Framework = 'qb' --[ qb, esx, nd, qbx]
 
