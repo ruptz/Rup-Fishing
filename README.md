@@ -1,33 +1,26 @@
-# Rup-Fishing
- Fishing script to mimic the style of GTA online
+# Rup-Fishing 🎣  
+A FiveM fishing script that allows players to catch different fish in various water bodies with rarity-based mechanics.  
 
-If theres a bug or error, open ticket [DISCORD](https://discord.gg/ESeUp8fwXQ):fishing_pole_and_fish:
+If you encounter a bug or issue, please open a ticket on my **[Discord](https://discord.gg/ESeUp8fwXQ)**.  
 
- Images Below
+## 📌 Features  
+- 🐟 Different types of fish based on water types (Sea, Lake, Pond, etc.)  
+- 🎣 Rarity system, fish yield better rewards depending on how hard to catch.  
+- ⚡ Optimized and **open-source** for easy customization.  
+- 💰 Fully configurable payouts.  
+- 🔧 Compatible with **QBCore** & **QBOX**.  
 
-## Features
-- GTAV Notification style.
-- Different types of fish for different waters (Sea, Lake, Pond etc.)
-- Different raritys depending on how hard the fish is to catch.
-- Optimized and open source.
-- Payouts all configurable.
-- Compatible with QBCore, QBOX
-## Installation
-- Check Config.lua and change Config.Framework to your liking.
-- Configure what you want in Config.lua and you're all good to go
-## Dependencies
-[ox_lib](https://github.com/overextended/ox_lib)
-## Credits
-I took some of https://github.com/wasabirobby/wasabi_fishing logic to make this script so I would definitely recommend checking them out.
+## 📥 Installation  
+1. Drag and drop the `rup-fishing` folder into your `resources` directory.  
+2. Add `ensure rup-fishing` to your `server.cfg`.  
+3. Configure the script in `Config.lua` to your liking.  
+4. You're good to go! 🎣  
 
-## Images
+## ⚙️ Dependencies  
+- **[ox_lib](https://github.com/overextended/ox_lib)**  
 
-![Image 1](https://media.discordapp.net/attachments/1043860724419670026/1221970002345988156/image.png?ex=6614833f&is=66020e3f&hm=4145c2a4623577b4b46517cc5a97880d52f430b088eda13947fa05d3585046ed&=&format=webp&quality=lossless&width=810&height=456)
+## 💡 Credits  
+This script is inspired by **[wasabi_fishing](https://github.com/wasabirobby/wasabi_fishing)**, and some of its logic was referenced. I highly recommend checking them out!  
 
-![Image 2](https://media.discordapp.net/attachments/1043860724419670026/1221970049540034600/image.png?ex=6614834a&is=66020e4a&hm=960d213fbcd783ed39a8486fb9551d735fc586c76a2ce1a52521d5a9752aaa22&=&format=webp&quality=lossless&width=810&height=456)
-
-![Image 3](https://media.discordapp.net/attachments/1043860724419670026/1221970078409691327/image.png?ex=66148351&is=66020e51&hm=b6855d1ffb28d9274509111dc831bcff1bbb6faeb97f4aa8d23ef0703ad6b47a&=&format=webp&quality=lossless&width=810&height=456)
-
-![Image 4](https://media.discordapp.net/attachments/1043860724419670026/1221970133480767528/image.png?ex=6614835e&is=66020e5e&hm=e5ee3a63359fbc2f77c6d9b8aed987475bedfd2cace1a139b0ed828c74d22c8f&=&format=webp&quality=lossless&width=550&height=309)
-
-![Image 5](https://media.discordapp.net/attachments/1043860724419670026/1221970250837524591/image.png?ex=6614837a&is=66020e7a&hm=831866e31f70c2cee3185e652f074f60d2edbbb33873f77050fb0930e3a0e076&=&format=webp&quality=lossless)
+## 📸 Images  
+(I will do this probably 0-0)
