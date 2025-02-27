@@ -1,0 +1,162 @@
+	-- Rup Fishing
+	['fishingrod'] = {
+		label = 'Fishing Rod',
+		weight = 800,
+		stack = true,
+		close = true,
+		client = {
+			export = 'rup-fishing.useRod',
+		}
+	},
+	
+	["fishbait"] = {
+		label = "Fishing Bait",
+		weight = 50,
+		stack = true,
+		close = false,
+		description = "Use this to start fishing",
+	},
+
+    ["swordfish"] = {
+		label = "Swordfish",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Swordfish caught fishing",
+	},
+
+	["mahimahi"] = {
+		label = "Mahi Mahi",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Mahi Mahi caught fishing",
+	},
+
+    ["marlin"] = {
+		label = "Marlin",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Marlin caught fishing",
+	},
+
+    ["tuna"] = {
+		label = "Tuna",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Tuna caught fishing",
+	},
+
+    ["salmon"] = {
+		label = "Salmon",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Salmon caught fishing",
+	},
+
+    ["mackerel"] = {
+		label = "Mackerel",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Mackerel caught fishing",
+	},
+
+    ["trout"] = {
+		label = "Trout",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Trout caught fishing",
+	},
+
+    ["cod"] = {
+		label = "Cod",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Cod caught fishing",
+	},
+
+    ["carp"] = {
+		label = "Carp",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Carp caught fishing",
+	},
+
+    ["walleye"] = {
+		label = "Walleye",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Walleye caught fishing",
+	},
+
+    ["catfish"] = {
+		label = "Catfish",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Catfish caught fishing",
+	},
+
+    ["bass"] = {
+		label = "Bass",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Bass caught fishing",
+	},
+
+    ["perch"] = {
+		label = "Perch",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Perch caught fishing",
+	},
+
+    ["crappie"] = {
+		label = "Crappie",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Crappie caught fishing",
+	},
+
+    ["bluegill"] = {
+		label = "Bluegill",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Bluegill caught fishing",
+	},
+
+	["talapia"] = {
+		label = "Talapia",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Talapia caught fishing",
+	},
+
+    ["fishbag"] = {
+		label = "Bag",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Bag caught fishing",
+	},
+
+    ["fishshoe"] = {
+		label = "Shoe",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A Shoe caught fishing",
+	},

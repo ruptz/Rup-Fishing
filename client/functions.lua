@@ -5,23 +5,23 @@ WaterCheck = function()
     return water, waterPos
 end
 
-CreateBlip = function(coords)
-    local blip = AddBlipForCoord(coords.x, coords.y, coords.z)
-    SetBlipSprite(blip, 317)
-    SetBlipDisplay(blip, 2)
-    SetBlipScale(blip, 0.8)
-    SetBlipColour(blip, 18)
+CreateBlip = function(coords, sprite, colour, text, scale, radius)
+    local blip = AddBlipForCoord(coords)
+    SetBlipSprite(blip, sprite)
+    SetBlipColour(blip, colour)
     SetBlipAsShortRange(blip, true)
-    BeginTextCommandSetBlipName("STRING")
-    AddTextComponentString("Fishing")
-    EndTextCommandSetBlipName(blip)
+    SetBlipScale(blip, scale)
+	AddTextEntry(text, text)
+	BeginTextCommandSetBlipName(text)
+	EndTextCommandSetBlipName(blip)
 
-    local radiusBlip = AddBlipForRadius(coords.x, coords.y, coords.z, 50.0)
-    SetBlipDisplay(radiusBlip, 2)
-    SetBlipColour(radiusBlip, 18)
-    SetBlipAlpha(radiusBlip, 100)  -- Adjust the alpha value here (0-255), 255 is fully opaque, 0 is fully transparent
-    
-    return blip, radiusBlip
+    if radius then
+        local radiusBlip = AddBlipForRadius(coords, 50.0)
+        SetBlipDisplay(radiusBlip, 2)
+        SetBlipColour(radiusBlip, 18)
+        SetBlipAlpha(radiusBlip, 100)
+    end
+    return blip
 end
 
 for i, blipLoc in ipairs(Config.FishingZones) do
@@ -37,5 +37,9 @@ for i, blipLoc in ipairs(Config.FishingZones) do
     centerZ = centerZ / numPoints
     
     local coords = vector3(centerX, centerY, centerZ)
-    local blip, radiusBlip = CreateBlip(coords)
+    local blip, radiusBlip = CreateBlip(coords, 317, 18, 'Fishing', 0.7, true)
+end
+
+FishingSellItems = function()
+	TriggerServerEvent('rup-fishing:sellFish')
 end

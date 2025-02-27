@@ -11,10 +11,9 @@ If theres a bug or error, open ticket [DISCORD](https://discord.gg/ESeUp8fwXQ):f
 - Different raritys depending on how hard the fish is to catch.
 - Optimized and open source.
 - Payouts all configurable.
-- Compatible with QBCore, ESX, NDCore, QBOX
+- Compatible with QBCore, QBOX
 ## Installation
 - Check Config.lua and change Config.Framework to your liking.
-- If using ND-Core or ESX please go into fxmanifest.lua and change what is listed.
 - Configure what you want in Config.lua and you're all good to go
 ## Dependencies
 [ox_lib](https://github.com/overextended/ox_lib)
