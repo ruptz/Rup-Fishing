@@ -25,5 +25,5 @@ This script is inspired by **[wasabi_fishing](https://github.com/wasabirobby/was
 ## ❓Misc
 Only ox inventory items are provided, if you change them to qb and want to help me out you can submit a PR and I will review it!
 
-## 📸 Images  
-(I will do this probably 0-0)
+## 📸 Preview 
+**[Youtube](https://www.youtube.com/watch?v=YBiDX8v4hDE)**
