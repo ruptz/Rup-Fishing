@@ -22,5 +22,8 @@ If you encounter a bug or issue, please open a ticket on my **[Discord](https://
 ## 💡 Credits  
 This script is inspired by **[wasabi_fishing](https://github.com/wasabirobby/wasabi_fishing)**, and some of its logic was referenced. I highly recommend checking them out!  
 
+## ❓Misc
+Only ox inventory items are provided, if you change them to qb and want to help me out you can submit a PR and I will review it!
+
 ## 📸 Images  
 (I will do this probably 0-0)
