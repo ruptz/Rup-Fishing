@@ -5,7 +5,7 @@
 		stack = true,
 		close = true,
 		client = {
-			export = 'rup-fishing.useRod',
+			export = 'Rup-Fishing.useRod',
 		}
 	},
 	
